@@ -13,6 +13,10 @@
         <module>../testFramework</module>
     </modules>
 
+    <name>Cigna CPSE Test Automation Framework</name>
+    <description>This is a Groovy project for the cucumber Test Framework</description>
+    <inceptionYear>2017</inceptionYear>
+
     <scm>
         <connection>git@github.com:vijaypampana/cucumberTest.git</connection>
         <url>https://github.com/vijaypampana/cucumberTest.git</url>
