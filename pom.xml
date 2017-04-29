@@ -13,8 +13,8 @@
     <inceptionYear>2017</inceptionYear>
 
     <scm>
-        <connection>git@github.com:vijaypampana/testFramework.git</connection>
-        <url>https://github.com/vijaypampana/testFramework.git</url>
+        <connection>git@github.com:vijaypampana/Projects.git</connection>
+        <url>https://github.com/vijaypampana/Projects.git</url>
     </scm>
 
     <dependencies>
@@ -200,12 +200,6 @@
         </dependency>
 
         <dependency>
-            <groupId>info.cukes</groupId>
-            <artifactId>gherkin</artifactId>
-            <version>2.12.2</version>
-        </dependency>
-
-        <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>gherkin</artifactId>
             <version>4.1.1</version>
@@ -234,6 +228,14 @@
             <artifactId>xml-apis</artifactId>
             <version>1.4.01</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.2</version>
+            <scope>runtime</scope>
+        </dependency>
+
 
 
     </dependencies>

@@ -20,8 +20,6 @@ import org.openqa.selenium.WebDriver
 import org.openqa.selenium.WebElement
 import org.openqa.selenium.chrome.ChromeDriver
 import org.openqa.selenium.firefox.FirefoxDriver
-import org.openqa.selenium.firefox.FirefoxProfile
-import org.openqa.selenium.firefox.internal.ProfilesIni
 import org.openqa.selenium.ie.InternetExplorerDriver
 import org.openqa.selenium.remote.DesiredCapabilities
 import org.openqa.selenium.support.ui.ExpectedConditions
@@ -156,9 +154,10 @@ class TestUtil {
             loggerS4lj.debug("Opening the chrome driver")
         } else if(d.equalsIgnoreCase("FF")) {
             System.setProperty("webdriver.gecko.driver", con.firefoxDriverPath)
-            ProfilesIni profile = new ProfilesIni()
+            /*ProfilesIni profile = new ProfilesIni()
             FirefoxProfile myprofile = profile.getProfile("default")
-            driver = new FirefoxDriver(myprofile)
+            driver = new FirefoxDriver(myprofile)*/
+            driver = new FirefoxDriver()
             loggerS4lj.debug("Opening the FireFox driver")
         } else if(d.equalsIgnoreCase("IE")) {
             System.setProperty("webdriver.ie.driver", con.IEDriverPath)
