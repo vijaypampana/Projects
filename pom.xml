@@ -13,8 +13,8 @@
     </modules>
 
     <scm>
-        <connection>git@github.com:vijaypampana/Projects.git</connection>
-        <url>https://github.com/vijaypampana/Projects.git</url>
+        <connection>git@github.com:vijaypampana/cucumberTest.git</connection>
+        <url>https://github.com/vijaypampana/cucumberTest.git</url>
     </scm>
 
     <dependencies>
